@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{gb as s,u as e,x as o}from"./chunk-3YRDQKWY.mjs";var c=(()=>{let t=class t{constructor(r){this.http=r,this.products=[]}getProducts(){return this.http.get("https://testologia.ru/pizzas",{})}getProduct(r){return this.http.get(`https://testologia.ru/pizzas?id=${r}`)}createOrder(r){return this.http.post("https://testologia.ru/order-pizza",r)}};t.\u0275fac=function(p){return new(p||t)(o(s))},t.\u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"});let i=t;return i})();export{c as a};
